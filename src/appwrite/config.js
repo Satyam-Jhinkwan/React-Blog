@@ -112,7 +112,7 @@ export class Services {
     }
   }
 
-  getFIlePreview(fileId) {
+  getFilePreview(fileId) {
     try {
       return this.bucket.getFilePreview(conf.appwriteBucketId, fileId);
     } catch (error) {
